@@ -1,0 +1,9 @@
+.idea
+.vscode
+.history
+.DS_Store
+**/node_modules
+**/build
+**/.next
+**/.env
+**/robots.txt

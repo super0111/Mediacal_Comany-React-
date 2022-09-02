@@ -1,0 +1,38 @@
+export const ApiBaseUrl = Number(process.env.REACT_APP_LIVE) == 2 ? process.env.REACT_APP_LIVE_BASE_URL : Number(process.env.REACT_APP_LIVE) == 1 ? process.env.REACT_APP_STAGING_BASE_URL : process.env.REACT_APP_LOCAL_BASE_URL;
+
+export const API_PATH = {
+    register: ApiBaseUrl + "auth/register",
+    updateUser: ApiBaseUrl + "user/updateuser",
+    getUser: ApiBaseUrl + "user/getuser",
+    getAllUser: ApiBaseUrl + "user/alluser",
+    login: ApiBaseUrl + "auth/login",
+    resetPassword: ApiBaseUrl + "user/resetpassword",
+    dashBoard: ApiBaseUrl + "order/dashboard",
+    barcode: ApiBaseUrl + "order/dashboard",
+    sendOTP: ApiBaseUrl + "user/sendotp",
+    verifyOTP: ApiBaseUrl + "user/verifyotp",
+    createIsle: ApiBaseUrl + "isle/create",
+    createRow: ApiBaseUrl + "row/createrow",
+    getAllIsle: ApiBaseUrl + "isle/getall",
+    getRow: ApiBaseUrl + "row/getrow",
+    getIsleName: ApiBaseUrl + "isle/getislename",
+    getRowName: ApiBaseUrl + "row/getrowname",
+    getDivisionName: ApiBaseUrl + "row/getdivisionname",
+    searchProduct: ApiBaseUrl + "product/searchproduct",
+    searchSize: ApiBaseUrl + "product/searchsize",
+    otherDetail: ApiBaseUrl + "product/otherdetail",
+    addProductManually: ApiBaseUrl + "product/add",
+    getProductRow: ApiBaseUrl + "product/row",
+    getSingleProduct: ApiBaseUrl + "product/singleproduct",
+    moveProduct: ApiBaseUrl + "product/moveproduct",
+    otherLocation: ApiBaseUrl + "product/otherlocation",
+    sellProduct: ApiBaseUrl + "product/sell",
+    getAllProduct: ApiBaseUrl + "product/getallproduct",
+    getProductSize: ApiBaseUrl + "product/getsize",
+    allOrders: ApiBaseUrl + "order/allorders",
+    singleOrder: ApiBaseUrl + "order/singleorder",
+    completeOrder: ApiBaseUrl + "order/completeorder",
+    productDetail: ApiBaseUrl + "inventory/productdetail",
+    allInventory: ApiBaseUrl + "inventory/allinventory"
+}
+
