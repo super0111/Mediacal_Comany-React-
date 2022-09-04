@@ -84,13 +84,13 @@ export default function Admins() {
 			Role: "Admin",
 		},
 		{
-			Admin_Name: "Mrs.John Doe",
+			Admin_Name: "Mrs.Sven",
 			Age: "62 years old",
 			Email: "johndoe@patient.com",
 			Role: "Admin",
 		},
 		{
-			Admin_Name: "Mrs.John Doe",
+			Admin_Name: "Mrs.John Does",
 			Age: "62 years old",
 			Email: "johndoe@patient.com",
 			Role: "Admin",
