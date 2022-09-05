@@ -78,7 +78,7 @@ export default function Admins() {
 			Role: "Admin",
 		},
 		{
-			Admin_Name: "Mrs.John Doe",
+			Admin_Name: "Mrs.Chris Man",
 			Age: "62 years old",
 			Email: "johndoe@patient.com",
 			Role: "Admin",
