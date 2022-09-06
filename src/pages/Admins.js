@@ -36,15 +36,15 @@ export default function Admins() {
 	const Admins = [
 		{
 			Admin_Name: "Mrs.John Doe",
-			Age: "62 years old",
+			Age: "49 years old",
 			Email: "johndoe@patient.com",
 			Role: "Admin",
 		},
 
 		{
 			Admin_Name: "Mrs.John Doe",
-			Age: "62 years old",
-			Email: "johndoe@patient.com",
+			Age: "52 years old",
+			Email: "johndoe@therapist.com",
 			Role: "Admin",
 		},
 		{
