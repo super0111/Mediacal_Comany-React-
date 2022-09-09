@@ -4,7 +4,6 @@ import Profile from "../images/consultation-images.png";
 import ImageVisit from "../images/login-side-img-1.png";
 import Covid from "../images/covid-icon.svg";
 import Hair from "../images/hair.svg";
-
 function ConsultationMedicalId() {
     return (
         <UserLayout>
