@@ -9,6 +9,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
