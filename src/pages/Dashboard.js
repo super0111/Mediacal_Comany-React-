@@ -15,9 +15,7 @@ import { Link } from "react-router-dom";
 
 export default function Dashboard() {
 	let value = new Date().toISOString();
-
 	let result = value.indexOf("T");
-
 	let time = value.substring(result);
 
 	useEffect(() => {}, []);
