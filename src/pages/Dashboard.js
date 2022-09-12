@@ -24,7 +24,6 @@ export default function Dashboard() {
 		startDate: "",
 		endDate: "",
 	};
-
 	const [values, setValues] = useState(initialValues);
 	const [graph, setGraph] = useState([]);
 	const [sale, setSale] = useState(0);
