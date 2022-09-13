@@ -18,8 +18,6 @@ export default function Dashboard() {
 	let result = value.indexOf("T");
 	let time = value.substring(result);
 
-	useEffect(() => {}, []);
-
 	const initialValues = {
 		startDate: "",
 		endDate: "",
