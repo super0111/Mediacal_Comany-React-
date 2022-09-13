@@ -34,8 +34,6 @@ export default function Dashboard() {
 	const [pending, setPending] = useState(0);
 	const [lowStock, setLowStock] = useState(0);
 
-	console.log(graph);
-
 	const getDashBoard = () => {
 		let path = API_PATH.dashBoard;
 		let data = {
